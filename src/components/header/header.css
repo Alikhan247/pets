@@ -1,0 +1,66 @@
+body {
+    background-color: #FAFBFC;
+}
+.header .ant-menu {
+    border: none;
+    background-color: #026AA7;
+}
+
+.header {
+    border-bottom: 1px solid #dedede;
+    background-color: #026AA7;
+    padding: 5px;
+}
+
+.header .header__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header__right .circle-name {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    background: rgba(229,229,229,0.5);
+    margin-right: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    border: none;
+}
+
+.header .search {
+   max-width: 250px ;
+}
+
+.header .ant-btn {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    margin-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.header a {
+
+     margin-right: 1%;
+}
+
+.search .ant-btn {
+    width: 30px;
+    height: 32px;
+    position: relative;
+}
